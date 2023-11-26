@@ -1,1 +1,0 @@
-<marquee loop=3 width=300><a rel="nofollow" href="http://en.webot.org/?search=Portal:Contents" target="_blank">Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology</a></marquee>

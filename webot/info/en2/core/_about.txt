@@ -1,6 +1,0 @@
-Home
-    vars
-    cover
-    parse
-        getwiki, referral
-        

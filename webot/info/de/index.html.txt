@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      const queryString = window.location.search;
+      window.open("https://earthspot.org/geo/"+queryString,"_self")
+    </script>
+  </body>
+</html>

@@ -1,7 +1,0 @@
-<?php
-//include '../lib/getvars.php';
-///////////////////////////////
-$arr = get_defined_vars();
-print_r($arr);
-///////////////////////////////
-?>
