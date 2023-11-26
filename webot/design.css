@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+html {
+	background: #284B99;
+	background-image: url("https://webot.org/back.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+h1,h3,h5,h2,h4,h6 {
+    color:#002b8078; text-align:left;
+    font-family:'arial black',sans-serif;
+    font-size:20px;
+    text-shadow: .5px .5px black;
+    padding-left:0;
+    margin:0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+body {
+    color:black; text-align:left;
+    font-family:"Open Sans","Segoe UI",sans-serif;
+    font-size:16pt;
+    margin:0
+}
+a,a:link,a:visited {color:darkblue; text-decoration:none}
+a:hover {color:white; background-color:#888} 
+hr {border: 0; height: 1px; background-image: linear-gradient(to right, #ccc, #333, #ccc)}
+img {border:1px; border-color:#fff; border-style:solid; box-shadow: 10px 10px 5px #888888}
+table,th,td {border:0}
+table {max-width:1200px; border-collapse:collapse; background-color:white}
+li {text-align:left}
+jus {display:block; font-size:14px; line-height:15px; padding:0; margin:0; margin-bottom:5px; text-align:justify}
+
+#page {
+    background:white; max-width:1020px; min-height:1000px; 
+    margin:auto; border-width:0; padding:0; overflow:hidden;
+}
+#wrap {
+    background:#eee; max-width:1000px; min-height:100%; 
+    margin:auto; border-width:0; padding:0;
+}
+#column1 {
+    width:50%; float:left;
+}
+#column2 {
+    width:50%; float:right;
+}
+#result {
+    font-size:18px; text-align:left; line-height:25px;
+    color:#222; background-color:white; 
+    max-width:1000px; min-height:1200px; 
+    padding:10px; padding-top:30px;
+    border-width:0; border-style:solid; border-color:gray silver black silver; 
+}
+#menu {
+    color:black; background-color:#ddd; padding:1px; text-align:left;
+}
+#nav,#nav1 {text-align:left; border-width:0; overflow:hidden}
+#nav {background:#eee; float:left; width:250px; min-height:2000px}
+#nav1 {background:#BDA0CB; float:right; width:250px; min-height:1000px}
+#frontpage {font-size:1em; line-height: 150%; padding:0}
+
+@media screen and (min-width:0px) and (max-width:600px) 
+    {body {font-size:12pt} #nav {margin-right:0} #result {padding:5px} #column1 {width:100%} #column2{width:100%}}
+@media screen and (min-width:0px) and (max-width:999px) 
+    {#nav,#nav1,#nav2,#nav3 {width:0}}
+@media screen and (min-width:1000px) 
+    {#result {font-size:18px; text-align:justify} jus {font-size:14px}}
+@media screen and (min-width:1500px) 
+    {#result {padding:20px}
+    html {background-image: url("https://webot.org/back.jpg"); background-repeat: no-repeat; background-size: 100%;}}
+
+#scroll {
+    overflow:auto;
+    white-space:nowrap;
+}
+#scroll img {
+    margin:0;
+}
+#scroll::-webkit-scrollbar {
+    width:0;
+    height:0;
+}
+
+#head-block,#foot-block {color:black; border-width:1px; text-transform:uppercase; padding:2px}
+#menu-block,#side-block {padding:0}
+#menu-block-1 {color:#111; width:100px; height:auto}
+#tail {background-color:#111; padding:15px; text-align:center}
+
+.cover {background:#fff; line-height:30px; text-align:justify; padding:10px}
+.text {font-size: 14pt; text-align:left; letter-spacing:1px; line-height: 150%}
+.big {font-family:impact,helvetica-bold,sans-serif; font-size:32px}
+.tiny {font-family:sans-serif; font-size:0.5em}
+.show-visited {color:gray}
+.reference {font-size:5pt}
+.headline {font-family:inherit}
+.grad1 {background:linear-gradient(to bottom, blue, navy)}
+.sm-img  {box-shadow:none}
+.ic-img  {box-shadow:none; border:0}
+.lg-img  {width:100%; box-shadow:none; border:0}
+.top {background-image:url("https://webot.org/book.png"); background-repeat: repeat-x; min-height:50px}
+.menu {font-size: 14pt; font-family:"Segoe UI",serif; background:#eee; padding:5px}
+.thumbcaption {text-align:left}
+.in-link {color:olive; font-size:22px;}
+.content {
+    font-size:20px; text-align:left; line-height:25px;
+    color:#222; background-color:white;
+    padding:5px; padding-top:0; padding-bottom:0;
+}
